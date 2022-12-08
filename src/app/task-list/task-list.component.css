@@ -1,14 +1,22 @@
 .container {
-  height: 500px;
-  width: 500px;
-  padding: 50px;
-  overflow: auto;
-  border: 3px;
-  margin: 30px auto;
+  display: flex;
+  
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-left: 50px;
+}
+table{
+  list-style-type: none;
+  margin: auto;
+  width: 50%;
+  padding: 0%;
 }
 .todo list {
-  height: px;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 500px;
+  margin: auto;
 }
 tr {
   height: 50px;
@@ -16,15 +24,23 @@ tr {
   flex-wrap: nowrap;
   display: flex;
   justify-content: space-between;
+
 }
 td {
   margin-left: 20px;
   margin-right: 0;
 }
 
-.my input {
-  background-color: rgb(234, 234, 221);
-  color: rgb(27, 6, 6);
+
+input{
+  flex-grow: 0.5;
+  padding: 13px;
+  font-size: 16.5px;
+  background-color: rgb(171, 167, 163);
+  color: rgb(7, 6, 6);
+}
+::placeholder{
+  color: black;
 }
 .even {
   height: 50px;
@@ -37,11 +53,18 @@ td {
   width: 100%;
   background-color: rgb(91, 81, 81);
 }
+.input-group{
+display: flex;
+justify-content: center;
+height: 50px;
+padding-bottom: 9px;
+}
 .remove-button {
   background-color: brown;
   color: rgb(17, 17, 16);
-  font-weight: bold;
+  font-weight: bolder;
   cursor: pointer;
+  
 }
 .add-button {
   background-color: rgb(84, 139, 108);
@@ -52,7 +75,7 @@ td {
 }
 .button {
   cursor: pointer;
-  background-color: blanchedalmond;
+  background-color: rgb(114, 97, 73);
   color: rgb(42, 3, 3);
 }
 .is-done {
