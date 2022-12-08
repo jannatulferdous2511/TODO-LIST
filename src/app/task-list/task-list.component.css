@@ -1,0 +1,60 @@
+.container {
+  height: 500px;
+  width: 500px;
+  padding: 50px;
+  overflow: auto;
+  border: 3px;
+  margin: 30px auto;
+}
+.todo list {
+  height: px;
+  width: 100%;
+}
+tr {
+  height: 50px;
+  text-align: left;
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: space-between;
+}
+td {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.my input {
+  background-color: rgb(234, 234, 221);
+  color: rgb(27, 6, 6);
+}
+.even {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(174, 181, 179);
+  color: black;
+}
+.odd {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(91, 81, 81);
+}
+.remove-button {
+  background-color: brown;
+  color: rgb(17, 17, 16);
+  font-weight: bold;
+  cursor: pointer;
+}
+.add-button {
+  background-color: rgb(84, 139, 108);
+  color: rgb(18, 17, 17);
+  cursor: pointer;
+
+  font-weight: bold;
+}
+.button {
+  cursor: pointer;
+  background-color: blanchedalmond;
+  color: rgb(42, 3, 3);
+}
+.is-done {
+  text-decoration: line-through;
+}
